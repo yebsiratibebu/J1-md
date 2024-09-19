@@ -2,26 +2,32 @@
 	"checkCode 1.A ",
 	"true",			
 	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
-	"checkCode 1000.
-	"false"
+	"checkCode 1000.Checking 12345",
+	"false",
 
-	checkCode 234
-	"true"
+	"checkCode 234.Checking Error 12345",
+	"true",
 
-	checkCode 932
-	"true"
+	"checkCode 932.Checking Error 12345",
+	"true",
 
-	checkCode 456
-	"true"
+	"checkCode 456. Checking Error 012345",
+	"false",
 
-	checkCode 853
-	"true"
+	"checkCode 853Checking Error 012345",
+	"false",
 
-	checkCode 583
-	"true"
+	"checkCode 583.cheking Error 12345",
+	"false",
 
-	checkCode 345
-	"true"
+	"checkCode 345.checking error 012345",
+	"false",
+
+	"checkCode 123.Checking Error012345",
+	"false",
+	
+	"checkCode 443.Hello1 World 12345",
+	"false",
 
 		
 	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
