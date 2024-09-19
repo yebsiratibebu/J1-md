@@ -1,0 +1,27 @@
+
+	"checkCode 1.A ",
+	"true",			
+	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+	"checkCode 1000.
+	"false"
+
+	checkCode 234
+	"true"
+
+	checkCode 932
+	"true"
+
+	checkCode 456
+	"true"
+
+	checkCode 853
+	"true"
+
+	checkCode 583
+	"true"
+
+	checkCode 345
+	"true"
+
+		
+	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
